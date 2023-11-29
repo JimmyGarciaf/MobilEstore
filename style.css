@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgb(158, 196, 221);
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #32056d;
+    height: 8vh;
+}
+.btn i{
+    font-size: 45px;
+    cursor: pointer;
+    color: white;
+}
+.home i{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+input{
+    padding: 0 25px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+    color: #32056d;
+}
+.caja-input{
+    position: relative;
+}
+input::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    color: #32056d;
+}
+.caja-input i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(113, 216, 250);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navegacion{
+    position: absolute;
+    background-image: linear-gradient( to bottom, rgb(43, 43, 253),rgb(107, 3, 107) );
+    width: 10%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 80px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.controler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    padding: 0 10px;
+}
+.controler i{
+    margin-right: 5px;
+    font-size: 25px;
+}
+.controler a{
+    display: none;
+    color: white;
+    text-decoration: none;
+}
+.controler:hover a{
+    display: flex;
+    transition: all ease-in 0.3s;
+    scale: 1.25;
+}
+.contenedor-principal{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600 ;
+}
+.caja-movim{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.caja-menu-item{
+    position: relative;
+    left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+.linea-vertical{
+    border-left: 1px solid black;
+    height: 40px;
+}
+.caja-btn{
+    margin-right: 20px;
+}
+.btn-caja{
+    width: 150px;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0f69;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-caja i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.btn-new{
+    width: 150px;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #663399;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-new i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.btn-cash{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #FF1493;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-caja:hover{
+    scale: 1.1;
+}
+.btn-new:hover{
+    scale: 1.1;
+}
+.btn-cash:hover{
+    scale: 1.1;
+}
+.caja-tran-cier{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.caja-menu-item2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.btn-tran{
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0f0f69;
+    cursor: pointer;
+}
+.btn-cierre{
+    color: #FF1493;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #FF1493;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn-tran:hover{
+    scale: 1.1;
+}
+.btn-cierre:hover{
+    scale: 1.1;
+}
+.sect2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.caja-gastos{
+    display: block;
+    width: 100%;
+}
+.caja-menu-item3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caja-opera1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border: 2px solid #FF1493;
+    border-radius: 10px;
+}
+.caja-opera2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border: 2px solid #006400;
+    border-radius: 10px;
+}
+.caja-opera3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border: 2px solid #FF0000;
+    border-radius: 10px;
+}
+.caja-opera1 i{
+    font-size: 50px;
+    margin-right: 15px;
+    color: #FF1493;
+}
+.caja-opera2 i{
+    font-size: 50px;
+    margin-right: 15px;
+    color: #006400;
+}
+.caja-opera3 i{
+    font-size: 50px;
+    margin-right: 15px;
+    color: red;
+}
+#opera1{
+    font-size: larger;
+    color: #663399;
+    text-align: center;
+    width: 80px;
+}
+#opera2{
+    font-size: larger;
+    color: #663399;
+    text-align: center;
+    width: 80px;
+}
+#opera3{
+    font-size: larger;
+    color: #663399;
+    text-align: center;
+    width: 80px;
+}
+#opera1 p{
+    margin-top: 10px;
+}
+.sect3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.caja-operaciones{
+    display: block;
+}
+.caja-menu-item4{
+    padding: 10px 0 10px 0;
+    background-color: #DCDCDC;
+    width: 100vw;
+    height: 3rem;
+}
+.caja-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    list-style: none;
+}
+span{
+    font-size: 20px;
+    color: #FF1493;
+}
+.caja-menu-item5{
+    padding: 10px 0 10px 0;
+    background-color: #A9A9A9;
+    width: 100vw;
+    height: 4rem;
+}
+.caja-info2{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.caja-estado{
+    position: relative;
+    left: 200px;
+    width: 50%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sect4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.caja-datos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caja-menu-item6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
