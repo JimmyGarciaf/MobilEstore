@@ -7,12 +7,14 @@ body{
     background-color: rgb(158, 196, 221);
 }
 .principal{
+    position: relative;
+    left: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #32056d;
     height: 8vh;
-    width: 100%;
+    width: 90%;
 }
 .btn i{
     font-size: 45px;
@@ -57,9 +59,10 @@ input::placeholder{
 }
 .navegacion{
     position: absolute;
+    top: 0;
     background-image: linear-gradient( to bottom, rgb(43, 43, 253),rgb(107, 3, 107) );
     width: 10%;
-    height: 92vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
