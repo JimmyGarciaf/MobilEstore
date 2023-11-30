@@ -367,7 +367,7 @@ span{
     align-items: center;
     width: max-content;
     position: relative;
-    left: 120px;
+    left: 50px;
 }
 .caja-menu-item6 i{
     font-size: 50px;
@@ -375,6 +375,7 @@ span{
 }
 .producto{
     margin-left: 25px;
+    width: max-content;
 }
 #prod{
     color: #663399;
@@ -388,30 +389,30 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65em;
+    width: 56em;
     height: 30px;
 }
 .inform1{
     font-size: 20px;
     list-style: none;
     position: absolute;
-    left: 230px;
+    left: 180px;
 }
 .inform2{
     list-style: none;
     position: absolute;
-    left: 390px;
+    left: 310px;
 }
 .inform3{
     font-size: 20px;
     list-style: none;
     position: absolute;
-    right: 290px;
+    right: 240px;
 }
 .inform4{
     list-style: none;
     position: absolute;
-    right: 100px;
+    right: 80px;
 }
 #valor{
     color: #663399;
