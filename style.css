@@ -310,11 +310,10 @@ h3{
     height: 3rem;
 }
 .caja-info{
-    position: relative;
-    left: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: red;
 }
 .info{
     list-style: none;
@@ -379,7 +378,7 @@ span{
 }
 .caja-result{
     position: relative;
-    left: 200px;
+    left: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -390,23 +389,23 @@ span{
     font-size: 20px;
     list-style: none;
     position: absolute;
-    left: 80px;
+    left: 230px;
 }
 .inform2{
     list-style: none;
     position: absolute;
-    left: 350px;
+    left: 390px;
 }
 .inform3{
     font-size: 20px;
     list-style: none;
     position: absolute;
-    right: 255px;
+    right: 290px;
 }
 .inform4{
     list-style: none;
     position: absolute;
-    right: 0;
+    right: 100px;
 }
 #valor{
     color: #663399;
