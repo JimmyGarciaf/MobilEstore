@@ -361,7 +361,8 @@ span{
     justify-content: center;
     align-items: center;
     width: max-content;
-    
+    position: relative;
+    left: 120px;
 }
 .caja-menu-item6 i{
     font-size: 50px;
